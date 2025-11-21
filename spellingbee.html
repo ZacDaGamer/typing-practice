@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typing Practice</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; }
+    #words { font-size: 24px; margin-bottom: 20px; }
+    #input { width: 100%; font-size: 24px; padding: 10px; }
+    #wpm { margin-top: 20px; font-size: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Typing Practice</h1>
+
+  <textarea id="wordList" placeholder="Enter your words here, separated by spaces" rows="3"></textarea>
+  <button id="startBtn">Start</button>
+
+  <div id="words"></div>
+  <input id="input" disabled placeholder="Start typing...">
+  
+  <div id="wpm"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
